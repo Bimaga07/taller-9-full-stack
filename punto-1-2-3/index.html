@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page Desing</title>
 </head>
 <body>
     <header>
@@ -11,15 +11,15 @@
         <img src="./public/images/header-logo.png" alt="header logo ">
         <nav>
             <ul>
-                <il><a href="">Cursos</a></il>
-                <il><a href="">Participantes</a></il>
-                <il><a href="">Certificados</a></il>
-                <il><a href="">Ayuda</a></il>
+                <il><a href="#banner">Cursos</a></il>
+                <il><a href="#section-1">Participantes</a></il>
+                <il><a href="#section-2">Certificados</a></il>
+                <il><a href="#footer">Ayuda</a></il>
             </ul>
         </nav>
         <div class="header_settings">
             <div class="lenguage">
-                <img src="./public/images/header-logo.png" alt="header world">
+                <img src="./public/images/header-world.png" alt="header world">
                 <span>Español</span>
             </div>
                 <button>Ingresar</button>
@@ -46,32 +46,108 @@
             <h2>por que elegirnos a nosotros</h2>
             <p>somos una universidad en constante actualizacion y nos gusta el cambio, te enseñamos tecnologias contemporaneas</p>
         </div>
-        <div class="card-1">
+        <div class="section-1__card">
+            <h3>Virtualidad y educacion </h3>
             <img src="./public/images/section1-education.png" 
             alt="education"
             width="120px"
             height="120px"
             >
-            <h3>Virtualidad y educacion </h3>
         </div>
-        <div class="card-2">
+        <div class="section-1__car">
             <h3>Alcance de objetivos</h3>
             <img src="./public/images/section1-goals.png" 
             alt="goals"
             width="120px"
             height="120px">
         </div>
-        <div class="card-3">
+        <div class="section-1__car">
+            <h3>Clses Inclusivas</h3>
             <img src="./public/images/section1-teach.png" 
             alt="teach"
             width="120px"
             height="120px"
             >
-            <h3>Clses Inclusivas</h3>
         </div>
         </section>
-        <section id="section-2"></section>
+        <section id="section-2">
+            <div class="section-2__info">
+                <img src="./public/images/section2-tools.png" 
+                alt="tools"
+                width="500px"
+                height="350px"
+                >
+                <div>
+                    <h2>Brindamos herramientas para que tu aprendizaje</h2>
+                    <h2>se efectivo</h2>
+                    <p>las herramientas digitales son nuestras aliadas y aprovechamos cada una de estas para brindarte la mejor expericia</p>
+                    <button>Saber mas</button>
+                </div>
+            </div>
+            <div class="section-2__info">
+                <h2>Educacion pensando</h2>
+                    <h2>objetivos alcanzados</h2>
+                    <p>es importante para nosotros que las metas de cada uno de nuestros estudiantes sean alcanzadas</p>
+                    <button>Saber mas</button>
+            </div>
+            <div>
+                <img src="./public/images/section2-goals.png" 
+                alt="goals"
+                height="350px"
+                width="500px"
+                >
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer id="footer">
+        <div class="footer__info">
+            <img src="./public//images/footer-logo.png" 
+            alt="logo"
+            width="200px"
+            height="175px"
+            >
+            <p>Unete a nuestra comunidad para recibir informacion actualizada de los cursos y las conferencias que ofrecemos 
+            </p>
+            <form action="">
+                <input type="email"
+                placeholder="example@correo.com"
+                name="user_email"
+                >
+                <button>suscribirse</button>
+            </form>
+        </div>
+        <div class="footer__list"> 
+             <table>
+                <thead>
+                    <tr>
+                        <th>Plataforma</th>
+                        <th>Preguntas Frecuentes</th>
+                        <th>Contactanos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="">Planestic</a></td>
+                        <td><a href=""></a>Como Puedo Inscribirme</td>
+                        <td><a href=""></a>+57 322 55 66</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Moodle</a></td>
+                        <td><a href="">Como obtengo mis certificados</a></td>
+                        <td><a href="">udistrital@edu.con</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href=""></a>Atenea</td>
+                        <td><a href=""></a>Medios de pago</td>
+                        <td><a href=""></a>Calle 40f # 22 sur</td>
+                    </tr>
+                    <tr>
+                        <tf><a href="">Administracion</a></tf>
+                        <tf><a href="">¿Que convenios existen?</a></tf>
+                    </tr>
+                </tbody>
+             </table>
+        </div>
+    </footer>
 </body>
 </html>
