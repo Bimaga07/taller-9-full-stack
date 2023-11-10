@@ -1,0 +1,11 @@
+.soyazul {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    
+}
+.soyrojo{
+    color: firebrick;
+    display: flex;
+    justify-content: center;
+}
