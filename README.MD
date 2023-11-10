@@ -4,7 +4,7 @@
 <p>Docente: Cristian Patiño</p>
 
 <h2>Link de la pagina web</h2>
-
+<a href="https://bimaga07.github.io/taller-9-full-stack/"> Link de pagina
 <h2>punto 1 Link de figma</h2>
 <a href="https://www.figma.com/file/RFOGe141dhqXsVXvJ5Kjs4/Brigitte-Bola%C3%B1os?type=design&node-id=0%3A1&mode=design&t=J8MyymrqutjafhMK-1"> Link de figma </a>
 <h2>punto 2 Diseño HTML</h2>
