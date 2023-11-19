@@ -1,0 +1,13 @@
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    background-color: rgba(135, 35, 228, 0.473);
+    justify-content: center;
+    gap: 100px;
+    border: 30px;
+    font-size: 20px;
+    cursor: pointer; ;
+    padding: 25px;
+    margin: 25px;
+}

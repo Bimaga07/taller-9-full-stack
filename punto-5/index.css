@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.verde {
+    color: darkgreen;
+}
+.rojo{
+    color:crimson;
+}
+.grande{
+    font-size: 30px;
+}
+.azul{
+    color: blue;
+}

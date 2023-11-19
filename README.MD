@@ -15,9 +15,10 @@
 <h2>punto 4 Titulos </h2>
 <img src="./public/images/punto__4.png">
 <h2>punto 5 Parrafo</h2>
-
+<img src="./public/images/punto 5.png">
 <h2>punto 6 Links</h2>
-
+<img src="./public/images/punto 6.png">
 <h2>punto 7 y 8 Navegacion </h2>
-
+<img src="./public/images/punto 7.png">
 <h2>punto 9 Tabla</h2>
+<img src="./public/images/punto9.png">
